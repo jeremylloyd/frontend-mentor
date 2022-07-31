@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/jeremylloyd/frontend-mentor-product-preview-card-component)
+- Live Site URL: [Hosted on Github Pages](https://jeremylloyd.github.io/frontend-mentor-product-preview-card-component/)
 
 ## My process
 
@@ -38,7 +38,6 @@ Users should be able to:
 
 - Plain old HTML5
 - Plain old CSS
-- Flexbox
 
 ### What I learned
 

@@ -12,6 +12,7 @@ body {
 
 p {
   line-height: 1.5em;
+  color: hsl(228, 12%, 48%);
 }
 
 section {
@@ -64,6 +65,34 @@ h2 {
 }
 
 .price {
-  font-family: 'Fraunces';
   display: flex;
+  align-items: center;
+  
+}
+
+.price > .new {
+  font-family: 'Fraunces';
+  font-size: xx-large;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+  margin-right: 30px;
+}
+
+.price > .old {
+  text-decoration: line-through;
+  font-family: 'Montserrat';
+}
+
+.add-to-cart {
+  padding: 1em;
+  border-radius: 0.5em;
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+.add-to-cart:hover {
+  background-color: hsl(158, 44%, 31%);
 }

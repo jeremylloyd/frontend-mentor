@@ -10,11 +10,20 @@ body {
   /* outline: red solid 10px; */
 }
 
-article {
-  background-color: white;
+section {
   height: 480px;
   max-width: 640px;
   margin: auto;
+  display: flex;
+  margin-top: calc((100vh - 480px)/2);
+}
+
+article {
+  background-color: white;
+}
+
+article > * {
+  margin: 32px;
 }
 
 .spacer {
@@ -27,4 +36,9 @@ article {
   justify-content: center;
   font-size: 11px;
   color: hsl(228, 45%, 44%);
+}
+
+img {
+  height: 100%;
+  width: 320px;
 }

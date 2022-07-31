@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #F3EAE3;
+  background-color: hsl(30, 38%, 92%);
   height: calc(100vh - (100vh - 480px) / 2);
 }
 

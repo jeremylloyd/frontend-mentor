@@ -3,6 +3,7 @@
   margin: 0px;
   font-family: 'Montserrat';
   /* border: 1px dashed black; */
+  text-decoration: none;
 }
 
 body {
@@ -27,10 +28,12 @@ section {
 
 article {
   background-color: white;
+  padding: 12px 32px;
+  border-radius: 0px 12px 12px 0px;
 }
 
 article > * {
-  margin: 32px 24px 0px 24px;
+  margin: 24px 0px;
 }
 
 .spacer {
@@ -45,13 +48,19 @@ article > * {
   color: hsl(228, 45%, 44%);
 }
 
+figure {
+  border-radius: 10px 0px 0px 10px;
+}
+
 img {
   height: 100%;
   width: 320px;
+  border-radius: 10px 0px 0px 10px;
 }
 
 h1 {
   font-family: 'Fraunces';
+  color: hsl(212, 21%, 14%);
   font-size: 36px;
   font-weight: 700;
   line-height: 1em;

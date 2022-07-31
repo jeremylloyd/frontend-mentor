@@ -101,6 +101,7 @@ h2 {
   color: white;
   text-align: center;
   display: block;
+  transition: 300ms;
 }
 
 .add-to-cart:hover {

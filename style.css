@@ -10,6 +10,10 @@ body {
   height: calc(100vh - (100vh - 480px) / 2);
 }
 
+p {
+  line-height: 1.5em;
+}
+
 section {
   height: 480px;
   max-width: 640px;
@@ -25,7 +29,7 @@ article {
 }
 
 article > * {
-  margin: 32px;
+  margin: 32px 24px 0px 24px;
 }
 
 .spacer {
@@ -45,10 +49,21 @@ img {
   width: 320px;
 }
 
-h1, h2 {
+h1 {
   font-family: 'Fraunces';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-size: small;
+  color: grey;
 }
 
 .price {
   font-family: 'Fraunces';
+  display: flex;
 }

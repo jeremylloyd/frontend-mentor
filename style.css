@@ -100,10 +100,12 @@ h2 {
   background-color: hsl(158, 36%, 37%);
   color: white;
   text-align: center;
-  display: block;
-  transition: 300ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 150ms;
 }
 
 .add-to-cart:hover {
-  background-color: hsl(158, 44%, 31%);
+  background-color: hsl(158, 58%, 14%);
 }

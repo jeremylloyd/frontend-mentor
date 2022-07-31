@@ -25,7 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![](images/screenshot.png)
+![](images/screenshot_mobile.png)
 
 ### Links
 
@@ -59,3 +60,4 @@ Users should be able to:
     }
     ```
   - Adding `border: 1px dashed black;` for debugging layout
+- Using only one of the `max-width` or `width` CSS properties. Using one makes overwriting them in media queries easier

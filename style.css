@@ -1,3 +1,30 @@
+*, *:before, *:after {
+  /* border: 1px black dashed; */
+  box-sizing: border-box;
+  margin: 0px;
+}
+
 body {
   background-color: #F3EAE3;
+  height: 100vh;
+  /* outline: red solid 10px; */
+}
+
+article {
+  background-color: white;
+  height: 480px;
+  max-width: 640px;
+  margin: auto;
+}
+
+.spacer {
+  height: calc((100vh - 480px)/2);
+}
+
+.attribution {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 11px;
+  color: hsl(228, 45%, 44%);
 }

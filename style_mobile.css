@@ -21,13 +21,13 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 355px;
+  width: 355px;
 }
 
 figure {
   overflow: hidden;
-  max-width: inherit;
-  max-height: 250px;
+  width: inherit;
+  height: 250px;
   display: flex;
   align-items: center;
   border-radius: 10px 10px 0px 0px;
@@ -35,7 +35,7 @@ figure {
 
 img {
   object-fit:fill;
-  max-width:inherit;
+  width:inherit;
 }
 
 article {
@@ -118,4 +118,38 @@ p {
 
 .add-to-cart:hover {
   background-color: hsl(158, 58%, 14%);
+}
+
+@media screen and (min-width: 640px) {
+  section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+    height: 450px;
+  }
+
+  figure {
+    height: inherit;
+    width: 320px;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  article {
+    height: inherit;
+    width: 320px;
+    padding: 30px;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-size: small;
+    color: hsl(228, 12%, 48%);
+  }
+
+  h1 {
+    margin-right: 20px;
+  }
 }
